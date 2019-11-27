@@ -13,4 +13,9 @@ RUN python -m pip install neovim
 RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install neovim
 
+# add mysettings
+WORKDIR /root/.config
+RUN git clone https://github.com/sn-mtsmt/nvim.git
+
+WORKDIR /root
 
