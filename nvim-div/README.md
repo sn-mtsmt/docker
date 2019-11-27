@@ -6,13 +6,14 @@
 
 ### build
 
-'''
+```
 docker build . -t vim
-'''
+```
 
 ### run
 
-'''
+```
 docker run -it vim ash
-'''
+```
+
 
